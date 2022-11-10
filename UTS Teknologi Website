@@ -1,0 +1,415 @@
+<!-- component -->
+<!-- component -->
+<!DOCTYPE html>
+<html lang="en" class="">
+<script src="assets/jquery-3.5.1.js"></script>
+  <head>
+    <link href="css/kecak.css" rel="stylesheet">
+    <link href="css/kecak.css" rel="stylesheet">
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS Navbar with Material Design 3</title>
+    <link
+      href="https://unpkg.com/@material-tailwind/html@latest/styles/material-tailwind.css"
+      rel="stylesheet"
+    />
+    <link
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet"
+    />
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" 
+        crossorigin="anonymous"/>
+  </head>
+  <body>
+    <div
+      class="min-h-screen p-10 pt-32 h-100"
+    >
+        <nav class="navbar w-full bg-white">
+            <div class="container-lg px-0">
+                <div class="flex w-full items-center">
+                <a class="nav-brand mr-auto ml-0" href="#">Kecak Fire and Trance Dance Ubud</a>
+                <button
+                    navbar-trigger=""
+                    class="navbar-trigger ml-auto mr-0 mb-0 lg:hidden xl:hidden"
+                    type="button"
+                    aria-controls="navigation"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-trigger-icon">
+                    <span bar1="" class="navbar-trigger-bar mt-1"
+                        ><span class="hidden origin-[10%_10%] rotate-45"></span
+                    ></span>
+                    <span bar2="" class="bar2 navbar-trigger-bar mt-2"></span>
+                    <span bar3="" class="bar3 navbar-trigger-bar mt-2"
+                        ><span
+                        class="mt-mt-[0.4375rem] hidden origin-[10%_90%] -rotate-45"
+                        ></span
+                    ></span>
+                    </span>
+                </button>
+                </div>
+                <div class="collapse navbar-collapse" navbar-menu="">
+                <ul class="navbar-nav">
+                    <li>
+                    <a class="nav-link" aria-current="page" href="#">
+                        <i class="material-icons mr-2 text-base opacity-60">article</i>
+                        <span>Jadwal Pementasan</span>
+                    </a>
+                    </li>
+                    <li>
+                    <a class="nav-link" href="#">
+                        <i class="material-icons mr-2 text-base opacity-60">apps</i>
+                        <span>Contact Person</span>
+                    </a>
+                    </li>
+                    <li class="flex">
+                        <a class="nav-link" href="#">
+                            <i class="material-icons mr-2 text-base opacity-60">view_carousel</i>
+                            <span>Email</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">
+                            <i class="fab fa-github mr-2 text-base opacity-60"></i>
+                            <span>Informasi</span>
+                        </a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <body>
+    <header>
+        <div class="header-content">
+            <div class="line"></div>
+            <p style="text-align:justify; font-size: 20px; margin: 15px;"><img src="/img/kecak.jpg" style="float:right; margin:0 7px 3px 0;" /></p>
+        </div>
+        
+        <div class="blog">
+                <div class="conteudo">
+             </div>
+            </div>
+
+            <aside class="sidebar">
+                <div class="widget">
+                <h2>Komentar Pengguna</h2>
+                <ul class="menusidebar">
+                <li><a href="">"Amazing Place, I am happy to see this kecak show, it is very interesting and the story that is played in the kecak dance is very insightful"</a></li>
+                <li><a href="">****</a></li>
+
+                </div>
+                <div class="widget">
+                    <h2>Deskripsi Kecak</h2>
+                    <ul class="menusidebar">
+                    <li><a href="">Sebagai salah satu objek wisata di Bali, Ubud merupakan kawasan unggulan dalam peta pariwisata, kaya dengan beragam kreasi seni baik itu berupa, tari, lukis dan ukir, dan tari Kecak yang paling diminati oleh wisatawan asing maupun domestik </a></li>
+                </ul>
+            </div>
+            </aside>
+
+            <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Pemesanan tiket hompeage</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#!">Pemesanan Tiket Kecak</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#!">All Products</a></li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item" href="#!">Popular Items</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-outline-dark" type="submit">
+                            
+                            <i class="bi-cart-fill me-1"></i>
+                            Cart
+                            <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                        </button>
+                    </form>
+                    <body>
+ <div class="container ">
+ <div class="content">
+ <div class="col-lg-8 bg-info">
+ <h1>Form Pemesanan</h1>
+ <hr>
+ <form class=" form-horizontal " action=" ">
+ <div class="form-group ">
+ <label class="control-label col-sm-3 ">Nama Pemesan:</label>
+ <div class="col-sm-9 ">
+ <input type="text" class="formcontrol " required placeholder="Masukkan Nama " name="nama ">
+ </div>
+ </div>
+<div class="form-group ">
+ <label class="control-label col-sm-3 ">NIK:</label>
+ <div class="col-sm-9 ">
+ <input type="number" class="formcontrol " required placeholder="Masukkan NIK " name="nik ">
+ </div>
+ </div>
+<div class="form-group ">
+ <label class="control-label col-sm-3 ">Email:</label>
+ <div class="col-sm-9 ">
+ <input type="email" class="formcontrol " placeholder="Email " name="email ">
+ </div>
+ </div>
+<div class="form-group ">
+ <label class="control-label col-sm-3 ">Status Pembayaran:</label>
+ <div class="col-sm-9 ">
+ <select name="status_pekerjaan" class="form-control sp">
+ <option value=" ">Pilih</option>
+ <option value="bekerja">Dana</option>
+ <option value="mahasiswa">Transfer Bank</option>
+ <option value="siswa">Kreditcard</option>
+ </select>
+
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="bg-dark py-5">
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="text-center text-white">
+                    <h1 class="display-4 fw-bolder">Kecak Ubud </h1>
+                    <p class="lead fw-normal text-white-50 mb-0">With this shop hompeage template</p>
+                </div>
+            </div>
+        </header>
+        <!-- Section-->
+        <section class="py-5">
+            <div class="container px-4 px-lg-5 mt-5">
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="https://phinemo.com/wp-content/uploads/2018/12/den-453551-unsplash-1.jpg">
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Fancy product</h5>
+                                    <!-- Product price-->
+                                    $40.00 - $80.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://phinemo.com/wp-content/uploads/2018/12/1-1.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Special Item</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$20.00</span>$18.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://3.bp.blogspot.com/-wYdZRCqEQz0/WJ1_GJM-9WI/AAAAAAAARbA/tSsf6L934Us9zcXZZzoDr7INQEWyELc8ACLcB/s1600/tari%2Bkecak.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Sale Item</h5>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$50.00</span>$25.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/rsfit19201280gsm/events/2022/06/27/bf7083cf-e22a-483c-99b8-d7ea98bc553d-1656316277746-69ee38591f16f89697f69eb1c11f7212.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Popular Item</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    $40.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://www.rentalmobilbali.net/wp-content/uploads/2021/12/Tari-Kecak-Ubud-Bali.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Sale Item</h5>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$50.00</span>$25.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://cdn1-production-images-kly.akamaized.net/INiMZSy5wvr4R3iSMgNd8cgvuAg=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2386957/original/010191700_1539858059-airy_3_673x373.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Fancy Product</h5>
+                                    <!-- Product price-->
+                                    $120.00 - $280.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://i0.wp.com/static.parahitatour.com/blog-content/tari-kecak-bali-adeirgha_photoworkz.jpg?ssl=1" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Special Item</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$20.00</span>
+                                    $18.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/rsfit621414gsm/events/2022/06/27/c2642c5a-23dd-4f0a-8a8d-6802bd41a930-1656316282214-b31e55a34012edf4ca9002db49fe4670.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Popular Item</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    $40.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Your Website 2022</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
